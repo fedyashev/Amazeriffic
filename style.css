@@ -1,8 +1,10 @@
 body {
   background: #f9e933;
   font-size: 100%;
+}
+
+header, main, footer {
   min-width: 855px;
-  margin: auto;
 }
 
 .content {
@@ -25,15 +27,15 @@ header, main {
   background: white;
 }
 
-.header_logo h1, .header_nav_panel nav {
-  margin: 10px;
+.header_logo, .header_nav_panel{
+  padding: 10px;
 }
 
 .header_logo h1 {
   font-size: xx-large;
 }
 
-.main_text h2, .main_text h3, .main_text p, .main_text li {
+.main_text h2, .main_text h3, .main_text p, .main_text li, .contact h5, .sitemap h5, .address {
   margin: 10px;
 }
 
@@ -43,4 +45,20 @@ header, main {
 
 .main_text ul {
   list-style: circle inside;
+}
+
+.sitemap {
+  overflow: auto;
+}
+
+.sitemap_references_left {
+  float: left;
+  max-width: 100px;
+  margin: 10px;
+}
+
+.sitemap_references_right {
+  float: right;
+  max-width: 185px;
+  margin: 10px;
 }
