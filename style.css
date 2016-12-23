@@ -27,6 +27,10 @@ header, main {
   background: white;
 }
 
+.image {
+  min-height: 350px;
+}
+
 .header_logo, .header_nav_panel{
   padding: 10px;
 }
