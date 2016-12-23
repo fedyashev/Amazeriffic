@@ -66,3 +66,13 @@ header, main {
   max-width: 185px;
   margin: 10px;
 }
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
