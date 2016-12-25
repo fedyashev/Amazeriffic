@@ -1,0 +1,27 @@
+header, main {
+  background: white;
+}
+
+.tab-panel {
+  float: left;
+}
+
+.image {
+  float: right;
+  max-width: 285px;
+  min-height: 350px;
+}
+
+.tab-name a span {
+ display: inline-block;
+ border-radius: 5px 5px 0 0;
+ width: 100px;
+ margin-right: 10px;
+ text-align: center;
+ background: #bbb;
+ padding: 5px;
+}
+
+.tab-name a span.tab-active {
+ background: #eee;
+}

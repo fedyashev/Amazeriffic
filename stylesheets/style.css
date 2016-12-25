@@ -13,22 +13,18 @@ header, main, footer {
   overflow: auto;
 }
 
-.header_logo, .main_text, .contact {
+.header_logo, .contact {
   float: left;
   max-width: 570px;
 }
 
-.header_nav_panel, .image, .sitemap {
+.header_nav_panel, .sitemap {
   float: right;
   max-width: 285px;
 }
 
 header, main {
   background: white;
-}
-
-.image {
-  min-height: 350px;
 }
 
 .header_logo, .header_nav_panel{
@@ -39,16 +35,8 @@ header, main {
   font-size: xx-large;
 }
 
-.main_text h2, .main_text h3, .main_text p, .main_text li, .contact h5, .sitemap h5, .address {
+.contact h5, .sitemap h5, .address {
   margin: 10px;
-}
-
-.main_text h2, .main_text h3 {
-  font-size: x-large;
-}
-
-.main_text ul {
-  list-style: circle inside;
 }
 
 .sitemap {
